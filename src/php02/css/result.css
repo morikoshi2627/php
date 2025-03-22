@@ -1,0 +1,44 @@
+/* 緑ゾーン　中央添え、内側余白、要素の最大幅 */
+.result__content {
+  margin: 0 auto;
+  padding: 60px 15px;
+  max-width: 1230px;
+}
+/* 黄色ゾーン　横並び、中央添え */
+.result-cards {
+  display: flex;
+  justify-content: center;
+}
+/* ピンクゾーン　 外側余白、角丸、影*/
+.result-card {
+  margin: 0 20px;
+  width: 360px;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+}
+/* 国旗表示ゾーン */
+.result-card__img-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+/* 国旗ゾーン */
+.result-card__img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+}
+
+/* 首都名、現在時刻表示ゾーン */
+.result-card__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+/* 首都名と現在時刻→外側余白、表示サイズ */
+.result-card__city,
+.result-card__time {
+  margin: 0;
+  font-size: 18px;
+}

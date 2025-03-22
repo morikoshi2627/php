@@ -1,0 +1,17 @@
+/* ヘッダーの背景カラー */
+.header {
+  background: #000;
+}
+/* ヘッダーの内側余白、中央添えで画面幅いっぱいで */
+.header__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+/* "World Clock"文字列は白、下線なし、太字、文字サイズ  */
+.header__logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}

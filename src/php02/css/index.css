@@ -1,0 +1,54 @@
+/*日本と世界の時間を比較 の内側余白、中央添えで画面幅いっぱいで*/
+.search-form__content {
+  margin: 0 auto;
+  padding: 60px 15px;
+  max-width: 1230px;
+}
+
+/* 日本と世界の時間を比較　の文字列の外側下余白、中央添えで */
+.search-form__heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* ラジオボタンと送信ボタンを横並びに、中央添えに*/
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+/* セレクトボックスの内側余白、幅 */
+.search-form__item {
+  padding: 0 5px;
+  width: 300px;
+}
+
+/* セレクトボックスの内側余白、幅、高さ、枠の太さと色と角丸 */
+.search-form__item-select {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  /* ボタン要素やフォームなどのデフォルトスタイルをカスタマイズしない */
+  appearance: none;
+}
+
+/* 検索ボタンの内側余白、幅 */
+.search-form__button {
+  padding: 0 5px;
+  width: 120px;
+}
+
+/* 検索ボタンの内側余白、幅、高さ、下線なし、ボタンの角丸、背景色、文字色*/
+.search-form__button-submit {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  /* 要素にポインターを合わせたらポインターを変更 */
+  cursor: pointer;
+}
