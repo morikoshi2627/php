@@ -1,9 +1,10 @@
+<!-- http://localhost/php01/index04.php -->
+
 <?php
 
-$a = 20;
-$b = 5
+$count = 0;
 
-$name
-$a >$b;
-
-echo 
+while($count < 20){
+  $count += 1;
+  echo $count . '<br />';
+}
